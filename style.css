@@ -49,5 +49,25 @@ p, ul {
 
 img {
   border-radius: 16px;
-  box-shadow: #241109ab 0px 1px 8px;
+  box-shadow: #000000ab 0px 1px 8px;
+}
+
+#footer-text {
+  font-size: 18px;
+  color: #F0E8C2;
+  margin-bottom: 48px;
+  text-shadow: 1px 1px 2px rgba(59, 43, 40, 0.253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#footer-text:hover {
+  text-decoration: underline;
+}
+
+#heart {
+  vertical-align: middle;
+  margin: 0 3px;
 }
